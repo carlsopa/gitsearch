@@ -1,0 +1,42 @@
+img{
+    width:60%;
+    text-align: left;
+}
+#start{
+    position: relative;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  /* min-height: 100vh; */
+  top:30vh;
+}
+#title{
+    margin-bottom:20px;
+    /* font-size:1.25rem; */
+}
+.header{
+    font-size:1.5rem;
+}
+#sub_text{
+    font-size:.8rem;
+}
+.git_input{
+    width:70vw;
+    font-size:1.25rem;
+}
+#submit{
+    margin: 10px 0;
+}
+#headerSearch{
+    margin-right:10px;
+    width:60vw;
+}
+#body{
+    display:grid;
+    grid-template-rows: auto auto;
+}
+#profile{
+    display: grid;
+grid-template-rows: auto auto auto auto;
+}
